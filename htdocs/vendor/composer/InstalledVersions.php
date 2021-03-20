@@ -14,24 +14,24 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
-    'name' => 'crud/vagas',
+    'reference' => '62a75e2eee091e89cad2a24beacb69093e2a2f42',
+    'name' => 'wdev/vagas',
   ),
   'versions' => 
   array (
-    'crud/vagas' => 
+    'wdev/vagas' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => '62a75e2eee091e89cad2a24beacb69093e2a2f42',
     ),
   ),
 );

@@ -1,0 +1,12 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{THE_REQUEST} /htdocs/([^\s?]*) [NC]
+RewriteRule ^ %1 [L,NE,R=302]
+RewriteRule ^(.*)$ htdocs/index.php?$1 [L,QSA]
+
+#DirectoryIndex htdocs/index.php htdocs/index.html
+
+RewriteEngine on
+RewriteCond %{REQUEST_URI} !^htdocs
+RewriteRule ^(.*)$ htdocs/$1 [L]
